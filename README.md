@@ -11,8 +11,5 @@ $ go run sessions.go
 $ curl -s http://localhost:8080/secret
 Forbidden
 
-$ curl -s -I http://localhost:8080/login
-Set-Cookie: cookie-name=abc
-
-$ curl -s --cookie "cookie-name=abc" http://localhost:8080/secret
+ http://localhost:8080/secret
 The cake is a lie!
